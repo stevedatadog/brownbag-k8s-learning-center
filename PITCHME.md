@@ -6,6 +6,10 @@ theme: uncover
 transition: fade
 paginate: true
 _paginate: false
+style: |
+  .small-text {
+    font-size: 0.75em;
+  }
 ---
 
 ![bg opacity](./assets/gradient.jpg)
@@ -18,7 +22,7 @@ brown bag presentation
 <style scoped>a { color: #36c; }</style>
 
 ---
-
+<!-- class: invert -->
 # Kubernetes
 A highly scalable, resilient, production-grade container orchestration platform.
 
@@ -263,7 +267,6 @@ But for some use cases, Kubernetes would make sense despite this:
  -->
 
 ---
-
 ## Summary
 
 - Kubernetes is complex, and so is monitoring it
