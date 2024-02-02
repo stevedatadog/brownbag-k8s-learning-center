@@ -17,20 +17,27 @@ brown bag presentation
 
 <style scoped>a { color: #36c; }</style>
 
-<!-- This is presenter note. You can write down notes through HTML comment. -->
 ---
 
 # Kubernetes
+A highly scalable, resilient, production-grade container orchestration platform.
 
+<!-- Let's talk about Kubernetes first -->
 ---
 
 ![Borg w:480](./assets/borg.png) ![7 of 9 w:185](../brownbag-k8s-learning-center/assets/7of9.png) ![Greek Pirate w:256](./assets/greek_pirate.png) ![Kubernetes logo w:256](./assets/k8swheel.png)
 
+<!-- 
+In the 2000s, Google started orchestrating containers using an internal project called Borg 
+Around 2013, the next generation of the orchestrator was called Seven, for Seven of Nine
+It was open sourced as Kubernetes in 2014
+The logo wheel has 7 points
+-->
 ---
 
 ## <!--fit-->  A Self-Hosted Kubernetes Cluster
 
-![w:1024](./assets/agent_daemonset.png)
+![w:1024](./assets/kubernetes_cluster.png)
 
 ---
 
