@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Marp CLI example
-description: Hosting Marp slide deck on the web
+title: Kubernetes, Datadog, and the Learning Center
+description: Introduction to Kubernetes, how Datadog monitors Kubernetes clusters, and how to use Kubernetes in Learning Center tracks.
 theme: uncover
 transition: fade
 paginate: true
