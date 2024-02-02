@@ -12,63 +12,122 @@ _paginate: false
 
 # <!--fit--> Kubernetes, Datadog, and the Learning Center
 
-A brown bag presentation 
+A Training and Customer Education
+brown bag presentation 
 
 <style scoped>a { color: #36c; }</style>
 
 <!-- This is presenter note. You can write down notes through HTML comment. -->
+---
+
+# Kubernetes
 
 ---
 
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+## A Self-Hosted Kubernetes Cluster
+
+![w:1024](./assets/agent_daemonset.png)
 
 ---
 
-<!-- _backgroundColor: "#123" -->
-<!-- _color: "#fff" -->
+## ... with a Node Agent DaemonSet
 
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
-
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
+![w:1024](./assets/agent_daemonset.png)
 
 ---
 
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
+## ... and a Cluster Agent
 
-## **[GitHub Pages](https://github.com/pages)**
-
-#### Ready to write & host your deck!
-
-[![Use this as template h:1.5em](https://img.shields.io/badge/-Use%20this%20as%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
+![w:1024](./assets/cluster_agent.png)
 
 ---
 
-![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
+## Cloud Clusters
 
-## **[Netlify](https://www.netlify.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Netlify h:1.5em](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
-
----
-
-![bg right 60%](https://icongr.am/simple/zeit.svg)
-
-## **[Vercel](https://vercel.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Vercel h:1.5em](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
+- Google Kubernetes Engine (GKE)
+- Amazon Elastic Kubernetes Service (EKS)
+- Azure Kubernetes Service (AKS)
+- DigitalOcean Kubernetes
+- Red Hat OpenShift
+- ... lots more
 
 ---
 
-### <!--fit--> :ok_hand:
+## Deploying Datadog to Kubernetes
+
+### Kubernetes resources
+
+- Node Agent DaemonSet
+- Cluster Agent Deployment
+- Services
+- ServiceAccounts
+- RBAC roles and bindings
 
 ---
 
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
+## Deploying Datadog to Kubernetes
 
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
+### Methods
+- Manifests
+- Helm chart
+- The Operator ⬅️ 
 
-https://github.com/yhatt/marp-cli-example
+---
+
+# Kubernetes and the Learning Center
+
+---
+
+## Kubernetes and the Learning Center
+
+1. Teaching Kubernetes
+2. Teaching anything else
+
+---
+
+## Teaching Kubernetes
+
+### `instruqt-k8s` image 
+
+  - Self-hosted Kubernetes 1.27 cluster
+    - Control Plane node
+    - n worker nodes
+  - Ideal for teaching how to monitor entire clusters, including the control plane
+  - Very hard to create and update
+  - Slow to start up
+  - Resource hungry
+
+---
+
+## Teaching Kubernetes
+
+### Lightweight Alternatives
+
+- Minikube
+- k3s
+- MicroK8s
+- Kind (Kubernetes IN Docker)
+- Rancher K3d
+
+---
+
+## Teaching Kubernetes
+
+### Lightweight Alternatives
+
+Do they provide real-world cluster monitoring experiences?
+
+**TBD**
+
+---
+
+## Teaching anything else
+
+We currently use Docker Compose in 
+our non-Kubernetes labs
+
+*But...*
+
+Kubernetes is the overwhelming choice for 
+container orchestration in production
+
