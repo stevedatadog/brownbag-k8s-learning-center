@@ -24,7 +24,11 @@ brown bag presentation
 
 ---
 
-## A Self-Hosted Kubernetes Cluster
+![Borg w:480](./assets/borg.png) ![7 of 9 w:185](../brownbag-k8s-learning-center/assets/7of9.png) ![Greek Pirate w:256](./assets/greek_pirate.png) ![Kubernetes logo w:256](./assets/k8swheel.png)
+
+---
+
+## <!--fit-->  A Self-Hosted Kubernetes Cluster
 
 ![w:1024](./assets/agent_daemonset.png)
 
@@ -36,7 +40,7 @@ brown bag presentation
 
 ---
 
-## ... and a Cluster Agent
+## <!--fit--> ... and a Cluster Agent Deployment
 
 ![w:1024](./assets/cluster_agent.png)
 
