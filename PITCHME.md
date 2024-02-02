@@ -10,11 +10,9 @@ _paginate: false
 
 ![bg opacity](./assets/gradient.jpg)
 
-# <!--fit--> Marp CLI example
+# <!--fit--> Kubernetes, Datadog, and the Learning Center
 
-Hosting Marp slide deck on the web
-
-https://github.com/yhatt/marp-cli-example
+A brown bag presentation 
 
 <style scoped>a { color: #36c; }</style>
 
